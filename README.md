@@ -7,4 +7,4 @@ The user needs to enter the speciation probability. After running the simulation
 The file correlations.f95 reads the output file from the core simulation and calculates the spatial correlations between the sites of the lattice. 
 The file correl-length.py takes this data as input and fits a Bessel function, obtaining the beta-diversity from the fit parameters.
 
-The file histogram.py builds an histogram with the abundance of each species in the lattice obtained from the core simulation, and fits it with an exponential function. 
+The file histogram-and-fits.py builds an histogram with the abundance of each species in the lattice obtained from the core simulation, and fits it with an exponential function. 
